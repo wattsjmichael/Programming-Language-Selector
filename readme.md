@@ -20,7 +20,7 @@ A multiple choice quiz that selects a programming language for you to learn usin
 ## Known Bugs
 * easter egg will not load. Needs more testing
 * Radio buttons will center on top of text if moved to the center. This is fixed with
-  bootstrap 4.0 flexboxes.
+  bootstrap 4.0 update flexboxes.
 
 ## Legal
 Copyright (c) 2020 Michael Watts

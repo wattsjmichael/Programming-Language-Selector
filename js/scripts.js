@@ -7,11 +7,11 @@ $(document).ready(function() {
 
   if (favOs === "mac") {
     $("#ruby").show();
-  } else if (favOs === "windows") {
+  } else if (favOs === "windows" || exp === "exp") {
     $("#cSharp").show();
   } else if (age <=34 && food === "pizza") {
     $("#javascript").show();
-  } else if (age >=35 || exp === "notExp") {
+  } else if (age >=35 && exp === "notExp") {
     $("#hackers").show();
   } else {
     $("#epicodus").show();
