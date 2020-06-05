@@ -11,7 +11,7 @@ $(document).ready(function() {
     $("#cSharp").show();
   } else if (age <=34 && food === "pizza") {
     $("#javascript").show();
-  } else if (age >=35 && exp === "notExperienced") {
+  } else if (age >=35 || exp === "notExp") {
     $("#hackers").show();
   } else {
     $("#epicodus").show();
