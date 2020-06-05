@@ -17,6 +17,8 @@ A multiple choice quiz that selects a programming language for you to learn usin
 * Open with Chrome (Only tested with Chrome, other browsers should work)
 * Follow the prompts
 
+## Known Bugs
+
 ## Legal
 Copyright (c) 2020 Michael Watts
 This software is licensed under MIT license.

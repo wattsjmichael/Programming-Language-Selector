@@ -4,15 +4,17 @@ $(document).ready(function() {
     const food = $("select#food").val();
     const favOS = $("select#favOS").val();
     const sign = $("input:radio[name=sign]:checked").val();
+    const exp = $("input:radio[name=exp]:checked").val();
 
-  if (age >=34 && food === "pizza" || favOS === "mac") {
+  if (food === "pizza" && favOS === "mac") {
     $("#ruby").show();
-  } else if (age >=35) {
+  } else if (age >=35 && exp === "notExperienced") {
     $("#cSharp").show();
   } else if (age <=20 && food === "notPizza") {
     $("#javascript").show();
-  } else if (sign === "notStopSign")
-    $("#driving").show();
+  } else if (exp === "notExperienced") {
+    $("#hackers").show();
+  }
 
   event.preventDefault();
   });

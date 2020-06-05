@@ -11,34 +11,55 @@
     <div class="container">
       <h1>Lets figure out what programming language you should learn</h1>
 
-      <p>We need a little information first!</p>
+      <h2>We need a little information first!</h2>
+      <br>
       <form id="programmingLanguage">
-        <label for="age">Age</label>
-        <input id="age" type ="text">
-        <br>
+        <label>
+          <h4>Age</h4>
+          <input id="age" type ="text">
+      <br>
+      <br>
         <label for="favoriteFood">Choose your favorite food</label>
         <select class="form-control" id="food">
           <option value="pizza">Pizza</option>
           <option value="notPizza">Not Pizza</option>
         </select>
+      <br>
         <label for="os">What is your Favorite OS?</label>
         <select class="form-control" id="favOS">
           <option value="mac">Sierra OS</option>
           <option value="windows">Windows</option>
           <option value="huh">Whats an OS???</option>
         </select>
-      <div class="radio">
-      <label>
-        <input type="radio" name="sign" value="stopSign" checked>
-          <p>Stop Sign</p>
-      </label>
-      </div>
-      <div class="radio">
-      <label>
-        <input type="radio" name="sign" value="notStopSign">
-          <p>Not a Stop Sign</p>
-      </label>
-      </div>
+      <br>
+        <div class="radio">
+        <label>
+          <h4>What is this?</h4>
+          <input type="radio" name="sign" value="stopSign" checked>
+            <p>Stop Sign</p>
+        </label>
+        </div>
+        <div class="radio">
+        <label>
+          <input type="radio" name="sign" value="notStopSign">
+            <p>Not A Stop Sign</p>
+        </label>
+        </div>
+      <br>
+        <div class="radio">
+        <label>
+          <h4>Have you worked with code before</h4>
+          <input type="radio" name="experience" value="experienced" checked>
+            <p>I have worked with code</p>
+        </label>
+        </div>
+        <div class="radio">
+        <label>
+          <input type="radio" name="experience" value="notExperienced">
+            <p>That Matrix stuff? I only heard about it in Hackers</p>
+        </label>
+        </div>
+        <br>
         <button type="submit" class="btn">Click here to find out your programming language!</button>
       </form>
       <div id="ruby">
@@ -54,8 +75,8 @@
         <p>Javascript!
           <img src=><img>
         </p>
-        <div id="driving">
-          <p>You really should learn how to drive first add link</p>
+        <div id="hackers">
+          <p>hackers</p>
         </div>
       </div>
     </div>
