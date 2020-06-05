@@ -7,7 +7,7 @@ $(document).ready(function() {
     } else if (favoriteFood === "brusselSprouts") {
       $("#cSharpAnswer").show();
     } else {
-      $("#javascriptAnswer")
+      $("#javascriptAnswer").show();
     }
 
     event.preventDefault();
