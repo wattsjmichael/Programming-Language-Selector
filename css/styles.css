@@ -1,7 +1,3 @@
-.btn {
-  display: block;
-}
-
-#rubyAnswer, #cSharpAnswer, #javascriptAnswer {
+#ruby, #cSharp, #javascript {
   display: none;
 }

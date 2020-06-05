@@ -1,15 +1,17 @@
 $(document).ready(function() {
-  $("form#coding").submit(function(event){
-    const favoriteFood = $("select#favoriteFood").val();
+  $("form#programmingLanguage").submit(function(event) {
+    const age = parseInt($("input#age").val());
+    const food = $("select#food").val();
+    const favOS = $("select#favOS").val();
 
-    if (favoriteFood == "pizza") {
-      $("#rubyAnswer").show();
-    } else if (favoriteFood == "brusselSprouts") {
-      $("#cSharpAnswer").show();
-    } else {
-      $("#javascriptAnswer").show();
-    }
+  if (age >=0 && food === "pizza" || favOS === "mac") {
+    $("#ruby").show();
+  } else if (age >=35|| food === "pizza" && favOS === "win") {
+    $("#cSharp").show();
+  } else if (age <=20 && food === "notPizza" && favOS === "huh") {
+    $("#javascript").show();
+  }
 
-    event.preventDefault();
+  event.preventDefault();
   });
 });

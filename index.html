@@ -1,35 +1,49 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Programming Language Selector</title>
-  </head>
+<html lang="en">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Programming Language Selector</title>
+</head>
   <body>
     <div class="container">
-    <h1>Which Language Should You Learn!!!</h1>
+      <h1>Lets figure out what programming language you should learn</h1>
 
-    <p>To find out which coding language is right for you we need to get some information from you!</p>
-    <form id= "coding">
-      <label for="favoriteFood">Which Food Do You Like the Most</label> <br>
-      <input type="radio" id="fF" name="question1"value="pizza"> Pizza <br>
-      <input type="radio" id="fF" name="question1"value="brussel"> Brussel Sprouts <br>
-      <input type="radio" id="fF" name="question1"value="taco"> Tacos <br>
+      <p>We need a little information first!</p>
+      <form id="programmingLanguage">
+        <label for="age">Age</label>
+        <input id="age" type ="text">
+        <br>
+        <label for="favoriteFood">Choose your favorite food</label>
+        <select class="form-control" id="food">
+          <option value="pizza">Pizza</option>
+          <option value="notPizza">Not Pizza</option>
+        </select>
+        <label for="os">What is your Favorite OS?</label>
+        <select class="form-control" id="favOS">
+          <option value="mac">Sierra OS</option>
+          <option value="windows">Windows</option>
+          <option value="huh">Whats an OS???</option>
+        </select>
 
-
-      <button type ="submit" class="btn">Let's Get Your Results!</button>
-    </form>
-
-    <div id="rubyAnswer">
-      <p>You should learn Ruby</p>
-    </div>
-    <div id="cSharpAnswer">
-      <p>You should learn C#</p>
-    </div>
-    <div id="javascriptAnswer">
-      <p>You should learn javascript</p>
+        <button type="submit" class="btn">Click here to find out your programming language!</button>
+      </form>
+      <div id="ruby">
+        <p>Ruby!</p>
+        <img src=><img>
+      </div>
+      <div id="cSharp">
+        <p>C#!
+          <img src=><img>
+        </p>
+      </div>
+      <div id="javascript">
+        <p>Javascript!
+          <img src=><img>
+        </p>
+      </div>
     </div>
   </body>
 </html>
