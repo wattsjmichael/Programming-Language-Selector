@@ -1,3 +1,7 @@
 #ruby, #cSharp, #javascript, #hackers, #epicodus {
   display: none;
 }
+
+.row {
+  text-align: center;
+}
