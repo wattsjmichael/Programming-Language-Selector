@@ -1,7 +1,26 @@
 #ruby, #cSharp, #javascript, #hackers, #epicodus {
   display: none;
+  text-align: center;
 }
 
-.row {
+
+body {
+  background-color: lightgray;
+}
+
+h2 {
   text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  height:40px;
+  width:100px;
+  margin: -20px -50px;
+  position:relative;
+  top: 50%;
+  left: 50%;
 }
