@@ -3,17 +3,18 @@ $(document).ready(function() {
     const age = parseInt($("input#age").val());
     const food = $("select#food").val();
     const favOS = $("select#favOS").val();
-    const sign = $("input:radio[name=sign]:checked").val();
-    const exp = $("input:radio[name=exp]:checked").val();
+    const exp = $("input:radio[name=experience]:checked").val();
 
-  if (food === "pizza" && favOS === "mac") {
+  if (favOS === "mac") {
     $("#ruby").show();
-  } else if (age >=35 && exp === "notExperienced") {
+  } else if (favOS ==="win") {
     $("#cSharp").show();
-  } else if (age <=20 && food === "notPizza") {
+  } else if (age <=34 && food === "pizza") {
     $("#javascript").show();
-  } else if (exp === "notExperienced") {
+  } else if (age >=35 && exp === "notExperienced") {
     $("#hackers").show();
+  } else {
+    $("#epicodus").show();
   }
 
   event.preventDefault();
