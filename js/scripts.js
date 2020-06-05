@@ -1,13 +1,13 @@
 $(document).ready(function() {
   $("form#programmingLanguage").submit(function(event) {
-    const age = parseInt($("input#age").val());
-    const food = $("select#food").val();
-    const favOS = $("select#favOS").val();
-    const exp = $("input:radio[name=experience]:checked").val();
+    let age = parseInt($("input#age").val());
+    let food = $("select#food").val();
+    let favOs = $("select#favOs").val();
+    let exp = $("input:radio[name=experience]:checked").val();
 
-  if (favOS === "mac") {
+  if (favOs === "mac") {
     $("#ruby").show();
-  } else if (favOS ==="win") {
+  } else if (favOs === "windows") {
     $("#cSharp").show();
   } else if (age <=34 && food === "pizza") {
     $("#javascript").show();
