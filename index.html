@@ -1,9 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Programming Language Selector</title>
-</head>
-<body>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Programming Language Selector</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Which Language Should You Learn!!!</h1>
 
-</body>
+    <p>To find out which coding language is right for you we need to get some information from you!</p>
+    <form id="coding">
+      <label for="favoriteFood">Which Food Do You Like the Most</label>
+      <select id="favorteFood">
+        <option value="pizza">Pizza</option>
+        <option value="brusselSprouts">Brussel Sprouts</option>
+        <option value="chocolate">Chocolate</option>
+      </select>
+
+      <button type ="submit" class="btn">Let's Get Your Results!</button>
+    </form>
+
+    <div id="codingLanguage">
+      <p>You should learn <span id="language"></span></p>
+    </div>
+  </body>
 </html>
