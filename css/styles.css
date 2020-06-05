@@ -1,0 +1,7 @@
+.btn {
+  display: block;
+}
+
+#rubyAnswer, #cSharpAnswer, #javascriptAnswer, {
+  display: none;
+}
