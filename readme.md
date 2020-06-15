@@ -10,12 +10,9 @@ A multiple choice quiz that selects a programming language for you to learn usin
 
 ## Setup
 
-* Clone repository from [Here](www.github.com/wattsjmichael/programming-language-selector.git)
-* Open with your favorite VS Code editor
-* Save
-* Name the file folder whatever is easiest for you to remember
-* Open with Chrome (Only tested with Chrome, other browsers should work)
-* Follow the prompts on the webpage
+* Find the repository of the files [here](https://github.com/wattsjmichael/Programming-Language-Selector) and click the green "Clone or Download Folder" to download a zip file with all of its contents.
+* Once file is downloaded, open with Visual Studio Code or the text editor of your choice to view or edit the code.
+* To see the file as presented as a .html webage open with your favorite browser.
 
 ## Known Bugs
 * easter egg will not load. Needs more testing (Fixed)
