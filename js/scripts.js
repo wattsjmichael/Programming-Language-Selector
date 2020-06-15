@@ -5,16 +5,37 @@ $(document).ready(function() {
     let favOs = $("select#favOs").val();
     let exp = $("input:radio[name=experience]:checked").val();
 
-  if (favOs === "mac") {
-    $("#ruby").show();
+    if (favOs === "mac") {
+      $("#ruby").show();
+      $("#cSharp").hide();
+      $("#javascript").hide();
+      $("#hackers").hide();
+      $("#epicodus").hide();
   } else if (favOs === "windows" || exp === "exp") {
-    $("#cSharp").show();
+      $("#cSharp").show();
+      $("#ruby").hide();
+      $("#javascript").hide();
+      $("#hackers").hide();
+      $("#epicodus").hide();
   } else if (age <=34 && food === "pizza") {
-    $("#javascript").show();
+      $("#javascript").show();
+      $("#cSharp").hide();
+      $("#ruby").hide();
+      $("#hackers").hide();
+      $("#epicodus").hide();
   } else if (age >=35 && exp === "notExp") {
-    $("#hackers").show();
+      $("#hackers").show();
+      $("#javascript").hide();
+      $("#cSharp").hide();
+      $("#ruby").hide();
+      $("#epicodus").hide();
   } else {
-    $("#epicodus").show();
+      $("#epicodus").show();
+      $("#hackers").hide();
+      $("#javascript").hide();
+      $("#cSharp").hide();
+      $("#ruby").hide();
+      $("#epicodus").hide();
   }
 
   event.preventDefault();
